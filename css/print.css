@@ -1,0 +1,29 @@
+@media print {
+
+
+  #header{
+    display: none;
+  }
+  #projetos{
+    display: none;
+  }
+
+  #header-nome{
+    display: block;
+    margin-top: 0;
+    height: 0px;
+    width: 550px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  #header-nome::after{
+    content: '(11) 97550-7042 rogeriopd10@gmail.com';
+    margin-bottom: 10px;
+  }
+
+  #main {
+    height: 30px;
+    margin-left: 10px ;
+    margin-top: 100px;
+  }
+}
