@@ -6,9 +6,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  /* color: #3b3b40; */
-  background-color: var(--main-background-color);
-  
+  background-color: var(--main-background-color); 
 }
 #header a{
   text-decoration: none;
@@ -29,7 +27,8 @@ body{
   position: fixed;
   height: 100%;
   width: 450px;
-  background-image: linear-gradient(to right top, #3b3b40 40%, #FF3A3B);
+  background-image: linear-gradient(to right top, #909095 40%, #F17A7B);
+  /* background-image: linear-gradient(to right top, #3b3b40 40%, #FF3A3B); */
   background-color:#3b3b30;
   padding-top: 16%;
   color: #fff;
@@ -58,6 +57,7 @@ body{
 
 #header-nome h3{
   font-size: 16px;
+  
 }
 
 
@@ -90,7 +90,7 @@ body{
 }
 
 #header-menu ul li {
-  margin: 55px
+  margin: 40px
 }
 
 #header-socialnetwork{
@@ -138,17 +138,38 @@ body{
 
 #main h3{
   font-size: 36px;
+  text-decoration: underline;
 } 
-#p-qualificacoes ul{
-  list-style: square;
+#p-qualificacoes div{
+  display: flex;
+}
+
+#p-qualificacoes div div{
+  width: 200px;
+  
+}
+
+#p-qualificacoes p{
+  width: 1000px;
+  line-height: 2;
 }
 #idiomas p{
   margin-left: var(--margin-left-section);
 }
+#formacoes h4{
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
 #formacoes div{
+  margin-top: 0;
+  padding-top: 0;
   margin-left: var(--margin-left-section);
 }
-
+#formacoes div p{
+  margin-top: 0;
+  padding-top: 0;
+}
 #e-profissionais div{
   margin-left: var(--margin-left-section);
 }
@@ -156,16 +177,10 @@ body{
   clear: both;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
 }
 
 #c-comple-container div{
   margin-top: 10px;
-  width: 400px;
-  height: 300px;
 }
 
 #c-complementares div{
