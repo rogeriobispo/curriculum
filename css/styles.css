@@ -131,6 +131,7 @@ body{
 #main {
   clear: both;
   float: left;
+  position: relative;
   height: 30px;
   margin-left: 550px ;
   margin-top: 50px;
