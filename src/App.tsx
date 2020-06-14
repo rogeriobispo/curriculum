@@ -4,14 +4,17 @@ import Routes from './routes';
 
 import GlobalStyle from './styles/global';
 import SideBar from './pages/sideBar';
+import MainContent from './pages/main';
 
 const App: React.FC = () => (
   <>
     <GlobalStyle />
     <SideBar />
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
+    <MainContent>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </MainContent>
   </>
 );
 export default App;

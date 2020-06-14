@@ -2,6 +2,12 @@ import React from 'react';
 
 import { Switch, Route } from 'react-router-dom';
 
-const Routes: React.FC = () => <Switch />;
+import Qualifications from '../pages/qualification';
+
+const Routes: React.FC = () => (
+  <Switch>
+    <Route path="/" component={Qualifications} />
+  </Switch>
+);
 
 export default Routes;

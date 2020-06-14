@@ -5,8 +5,6 @@ const Container = styled.div`
   margin-top: 0%;
   height: 80px;
   width: 550px;
-  position: fixed;
-  top: 100px;
   color: black;
   background-color: ${mainBackgroundColor};
 
